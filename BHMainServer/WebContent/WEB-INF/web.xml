@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>PCServlet</servlet-name>
+    <servlet-class>ro.edu.ubb.blackholemainserver.communication.PCServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PCServlet</servlet-name>
+    <url-pattern>/pcservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
