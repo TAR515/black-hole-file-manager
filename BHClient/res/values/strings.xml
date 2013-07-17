@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">Black 
+        Hole</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_server__select_">Server Manager</string>
+    <string name="title_activity_add_server">AddServerActivity</string>
+    <string name="title_activity_edit_server">EditServerActivity</string>
+    <string name="title_activity_mode_select">ModeSelectActivity</string>
+    <string name="title_activity_logo">LogoActivity</string>
+    <string name="title_activity_file_manager">FileManager</string>
+
+    <!-- Menu Settings -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_downloads">View Downloads</string>
+    <string name="menu_running_programs">View Running Programs</string>
+    <string name="menu_about">About</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Buttons -->
+    <string name="button_add_server">Add Server</string>
+    <string name="button_create_server">Create Server</string>
+    <string name="button_edit_server">Edit Server</string>
+    <string name="button_file_manager">File Manager</string>
+    <string name="button_remote_desktop">Remote Desktop</string>
+    <string name="button_start_download">Start Download</string>
+    <string name="button_start_upload">Start Upload</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_phone">Phone</string>
+    <string name="button_pc">PC</string>
+
+    <!-- Text Fields -->
+    <string name="text_field_server_name">Server Name</string>
+    <string name="text_field_password">Password</string>
+
+    <!-- Check Box -->
+    <string name="check_box_password">Store my password</string>
+
+    <!-- Hints -->
+    <string name="hint_server_name">Enter your server name.</string>
+    <string name="hint_password">Enter your password.</string>
+
+    <!-- Context Menu -->
+    <string name="context_meniu_edit">Edit</string>
+    <string name="context_meniu_delete">Delete all selected items</string>
+    <string name="context_meniu_properties">Properties</string>
+    <string name="context_meniu_rename">Rename</string>
+
+    <!-- Warning, Error, Info Messages -->
+    <string name="warning">Warning!</string>
+    <string name="warning_empty_field">All fields are required!</string>
+
+    <!-- Dialog -->
+    <string name="loading_dialog_title">Loading!</string>
+    <string name="loading_dialog_message">Please wait.</string>
+    <string name="loading_dialog_cancel">Cancel</string>
+    <string name="password_check_title">Password check</string>
+    <string name="password_check_message">Please enter your password for the selected server.</string>
+    <string name="about_dialog_title">Black Hole</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="information_dialog_title">Information</string>
+    <string name="file_deleted_dialog_message">All files were deleted successfully!</string>
+    <string name="file_not_deleted_dialog_message">Some file were not deleted!</string>
+    <string name="file_cannot_executed_dialog_message">You do not have a compatible application to execute this file!</string>
+    <string name="download_started">Download started!</string>
+    <string name="download_not_started">Download not started! \n You can save files only in your SDCard. \n Possible that youre server is offline, please check it.</string>
+    <string name="upload_successfully">Successfully upload!</string>
+    <string name="upload_unsuccessfully">Some files were not uploaded!</string>
+    <string name="all_files_were_deleted">All files were deleted successfully!</string>
+    <string name="some_files_were_not_deleted">Some files were not deleted!</string>
+    <string name="remote_desktop_not_implemented">The remote desktop is not implemented yet!</string>
+    <string name="upload_progress_bar_uploading">Uploading#8230</string>
+    <string name="upload_progress_bar_zero_per_cent">0%</string>
+    <string name="all_programs_were_started">The program were started on the PC.</string>
+    <string name="not_all_programs_were_started">The program were not started on the PC.</string>
+    <string name="all_programs_were_stopped">The program were stopped on the PC.</string>
+    <string name="not_all_programs_were_stopped">The program were not stopped on the PC.</string>
+    <string name="no_wifi_connection">You are not connected to any WIFI network!\nDownloading and uploading files can make a big network data traffic.</string>
+	<string name="warning_dialog_title">Warning:</string>
+	<string name="target_device_dialog_title">Target Device:</string>
+	<string name="choose_device">Please select on which device you want to start the application:</string>
+    
+    
+    <!-- Information -->
+    <string name="inf_about_informations">Black Hole (2012/2013) \n\n Created by: Turdean Arnold Robert \n</string>
+    <string name="inf_file_name">File Name: </string>
+    <string name="inf_file_path">Path: </string>
+    <string name="inf_file_size">Size: </string>
+    <string name="inf_file_date">Last Modified Date: </string>
+    <string name="inf_file_permissions">Permissions: </string>
+
+    <!-- Content Desctription -->
+    <string name="content_description_file_manager">File Manager</string>
+    <string name="content_description_logo">Logo</string>
+    <string name="content_description_listview_item_icon">Icon</string>
+    <string name="content_description_listview_home">Home</string>
+    <string name="content_description_listview_back">Back</string>
+    <string name="content_description_listview_refresh">Refresh</string>
+    <string name="content_description_img_button_download">Download</string>
+    <string name="content_description_img_button_upload">Upload</string>
+    <string name="content_description_img_button_change_tab">ChangeTab</string>
+
+    <!-- Headers -->
+    <string name="header_fm_listview">Header</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_remote_desktop">RemoteDesktopActivity</string>
+    <string name="title_phone_tab">Phone Tab</string>
+    <string name="title_pc_tab">PC Tab</string>
+    <string name="title_home_path">Home</string>
+
+    <!-- Upload Progress Bar -->
+    <string name="content_description_upload_progress_image">Upload Progress Bar Image</string>
+    <string name="title_activity_running_services">RunningServicesActivity</string>
+
+</resources>

@@ -1,0 +1,432 @@
+<class-diagram version="1.0.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.dal.DataProvider" project="BlackHole" 
+    file="/BlackHole/src/ro/edu/ubb/blackhole/dal/DataProvider.java" binary="false">    
+    <position height="-1" width="-1" x="780" y="165"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.dal.DataService" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/dal/DataService.java" binary="false">    
+    <position height="-1" width="-1" x="782" y="528"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" 
+    name="ro.edu.ubb.blackhole.dal.localdatabase.AndroidDatabaseService" project="BlackHole" 
+    file="/BlackHole/src/ro/edu/ubb/blackhole/dal/localdatabase/AndroidDatabaseService.java" binary="false">    
+    <position height="-1" width="-1" x="1222" y="527"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="ro.edu.ubb.blackhole.dal.localdatabase.SQLiteDatabaseProvider" project="BlackHole" 
+    file="/BlackHole/src/ro/edu/ubb/blackhole/dal/localdatabase/SQLiteDatabaseProvider.java" binary="false">    
+    <position height="-1" width="-1" x="1222" y="166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" corner="BOTTOM_RIGHT" language="java" 
+    name="ro.edu.ubb.blackhole.dal.localfilemanager.LocalFileService" project="BlackHole" 
+    file="/BlackHole/src/ro/edu/ubb/blackhole/dal/localfilemanager/LocalFileService.java" binary="false">    
+    <position height="-1" width="-1" x="209" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" 
+    name="ro.edu.ubb.blackhole.dal.localfilemanager.AndroidFileProvider" project="BlackHole" 
+    file="/BlackHole/src/ro/edu/ubb/blackhole/dal/localfilemanager/AndroidFileProvider.java" binary="false">    
+    <position height="-1" width="-1" x="207" y="278"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.activityes.AddServerActivity" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/activityes/AddServerActivity.java" binary="false">    
+    <position height="-1" width="-1" x="781" y="1150"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.ResponseHandler" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/ResponseHandler.java" binary="false">    
+    <position height="-1" width="-1" x="783" y="953"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.GuiRequestHandler" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/GuiRequestHandler.java" binary="false">    
+    <position height="-1" width="-1" x="783" y="767"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.LoadingScreen" project="BlackHole" 
+    file="/BlackHole/src/ro/edu/ubb/blackhole/gui/LoadingScreen.java" binary="false">    
+    <position height="-1" width="-1" x="379" y="766"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.activityes.EditServerActivity" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/activityes/EditServerActivity.java" binary="false">    
+    <position height="-1" width="-1" x="529" y="1177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" 
+    name="ro.edu.ubb.blackhole.gui.activityes.FileManager.NavigationTab" project="BlackHole" 
+    file="/BlackHole/src/ro/edu/ubb/blackhole/gui/activityes/FileManager.java" binary="false">    
+    <position height="-1" width="-1" x="1152" y="1503"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.activityes.FileManager" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/activityes/FileManager.java" binary="false">    
+    <position height="-1" width="-1" x="1150" y="1218"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.activityes.LogoActivity.Timer" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/activityes/LogoActivity.java" binary="false">    
+    <position height="-1" width="-1" x="1479" y="1430"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.activityes.LogoActivity" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/activityes/LogoActivity.java" binary="false">    
+    <position height="-1" width="-1" x="1468" y="1147"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="16" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.activityes.ModeSelectActivity" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/activityes/ModeSelectActivity.java" binary="false">    
+    <position height="-1" width="-1" x="1708" y="1120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="17" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.activityes.ServerSelectActivity" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/activityes/ServerSelectActivity.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="217" y="1210"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="18" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.MessageBox" project="BlackHole" 
+    file="/BlackHole/src/ro/edu/ubb/blackhole/gui/MessageBox.java" binary="false">    
+    <position height="-1" width="-1" x="1500" y="926"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.gui.PhoneListViewAdapter" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/gui/PhoneListViewAdapter.java" binary="false">    
+    <position height="-1" width="-1" x="736" y="1608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.datastructures.Server" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/datastructures/Server.java" binary="false">    
+    <position height="-1" width="-1" x="157" y="2099"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="21" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.datastructures.guirequest.GuiRequest" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/datastructures/guirequest/GuiRequest.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="489" y="2099"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="22" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.datastructures.FileItem" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/datastructures/FileItem.java" binary="false">    
+    <position height="-1" width="-1" x="822" y="2337"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="23" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.datastructures.CommandToGui" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/datastructures/CommandToGui.java" binary="false">    
+    <position height="-1" width="-1" x="482" y="2524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="24" corner="BOTTOM_RIGHT" language="java" name="ro.edu.ubb.blackhole.datastructures.BlackHoleException" 
+    project="BlackHole" file="/BlackHole/src/ro/edu/ubb/blackhole/datastructures/BlackHoleException.java" binary="false">    
+    <position height="-1" width="-1" x="1153" y="767"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="25">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="26">    
+    <bendpoint x="483" y="2829"/>    
+    <bendpoint x="1098" y="2828"/>    
+    <bendpoint x="1844" y="2830"/>    
+    <bendpoint x="1843" y="2449"/>    
+    <bendpoint x="1845" y="1776"/>    
+    <bendpoint x="1843" y="1164"/>    
+    <bendpoint x="1842" y="767"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="27" name="blackHoleException"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <bendpoint x="1228" y="1405"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="30" name="phoneTab">        
+        <position height="15" width="54" x="1154" y="1396"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="1">        
+        <position height="15" width="21" x="1224" y="1425"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="32">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="33">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="34" name="dataService"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="36">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="37">    
+    <bendpoint x="982" y="952"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="38">    
+    <bendpoint x="533" y="1019"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="40">    
+    <bendpoint x="1154" y="1608"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="41" name="adapter"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="43">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <association id="44">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="45" name="localFileService"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="48" name="pcTab">        
+        <position height="15" width="36" x="1090" y="1420"/>      
+      </attribute>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <bendpoint x="324" y="2074"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="51" name="server"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="54" name="timerThread"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="56">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="57">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="58" name="blackHoleException"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <bendpoint x="612" y="2347"/>    
+    <bendpoint x="650" y="2351"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="61" name="files"/>      
+      <multiplicity id="62" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="63">    
+    <bendpoint x="1060" y="1415"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <association id="64">    
+    <bendpoint x="888" y="417"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="65" name="androidDatabaseService">        
+        <position height="15" width="126" x="941" y="410"/>      
+      </attribute>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="68" name="loadingScreen"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <bendpoint x="806" y="1851"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="71" name="fileItems"/>      
+      <multiplicity id="72" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <bendpoint x="741" y="1371"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="74" name="fileManagerActivity"/>      
+      <multiplicity id="75" minimum="0" maximum="1">        
+        <position height="15" width="21" x="951" y="1303"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="77" name="responseHandler"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <bendpoint x="157" y="2524"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="80" name="server"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <bendpoint x="321" y="2154"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="83" name="updatedServer"/>      
+      <multiplicity id="84" minimum="0" maximum="1">        
+        <position height="15" width="21" x="261" y="2145"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="85">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="86">    
+    <bendpoint x="1351" y="1422"/>    
+    <bendpoint x="1351" y="1793"/>    
+    <bendpoint x="947" y="1793"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="87" name="selectedFile"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="89">    
+    <bendpoint x="408" y="961"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

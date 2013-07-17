@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listview_servernames"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:background="@android:color/transparent"
+        android:drawSelectorOnTop="false" />
+    
+    <Button
+        android:id="@+id/button_add_server"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:text="@string/button_add_server" 
+        android:onClick="addServerButton"/>
+
+</LinearLayout>

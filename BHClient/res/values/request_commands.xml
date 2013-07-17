@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="COMMAND_GET_SERVER_NAMES">1</integer>
+    <integer name="COMMAND_INSERT_NEW_SERVER">2</integer>
+    <integer name="COMMAND_DELETE_SERVER">3</integer>
+    <integer name="COMMAND_EDIT_SERVER">4</integer>
+    <integer name="COMMAND_GET_SERVER_INFORMATIONS">5</integer>
+    <integer name="COMMAND_GET_LIST_OF_FILES_ANDROID">6</integer>
+    <integer name="COMMAND_GET_DIRECTORY_SIZE_ANDROID">7</integer>
+    <integer name="COMMAND_DELETE_FILE_ANDROID">8</integer>
+    <integer name="COMMAND_RENAME_FILE_ANDROID">9</integer>
+    <integer name="COMMAND_GET_IP_AND_PORT">9</integer>
+    <integer name="COMMAND_GET_LIST_OF_FILES_PC">10</integer>
+    <integer name="COMMAND_GET_DIRECTORY_SIZE_PC">11</integer>
+    <integer name="COMMAND_DELETE_FILE_PC">12</integer>
+    <integer name="COMMAND_FILE_EXECUTE_ANDROID">13</integer>
+    <integer name="COMMAND_GET_HOME_ANDROID">14</integer>
+    <integer name="COMMAND_DOWNLOAD_FILE">15</integer>
+    <integer name="COMMAND_REGISTER_DOWNLOAD_MANAGER">16</integer>
+    <integer name="COMMAND_UNREGISTER_DOWNLOAD_MANAGER">17</integer>
+    <integer name="COMMAND_UPLOAD_FILE">18</integer>
+    <integer name="COMMAND_GET_RUNNING_PROGRAMS">19</integer>
+    <integer name="COMMAND_START_PROGRAMS">20</integer>
+    <integer name="COMMAND_STOP_PROGRAMS">21</integer>
+    
+    <integer name="BLACK_HOLE_EXCEPTION">30</integer>
+
+</resources>

@@ -1,0 +1,138 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:weightSum="1.0" >
+
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="1.0" >
+
+        <TextView
+            android:id="@+id/phone_tab_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:background="@layout/style_right_border"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text="@string/title_phone_tab"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/pc_tab_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/title_pc_tab"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/style_bottom_border" >
+
+        <TextView
+            android:id="@+id/phone_path_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:background="@layout/style_bott_right_border"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text="@string/title_home_path"
+            android:textColor="@android:color/white"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/pc_path_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:singleLine="true"
+            android:text="@string/title_home_path"
+            android:textColor="@android:color/white"
+            android:textSize="8dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:weightSum="1.0" >
+
+        <ListView
+            android:id="@+id/listview_phone_files"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="@layout/style_right_border" />
+
+        <ListView
+            android:id="@+id/listview_pc_files"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/style_top_border"
+        android:gravity="center"
+        android:weightSum="1.0" >
+
+        <ImageButton
+            android:contentDescription="@string/content_description_img_button_upload"
+            android:id="@+id/button_upload_file"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingTop="5dp"
+            android:background="@null"
+            android:onClick="startUploadButton"
+            android:src="@drawable/button_upload" />
+        
+        
+        <ImageButton
+            android:contentDescription="@string/content_description_img_button_change_tab"
+            android:id="@+id/button_active_tab_changer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:background="@null"
+            android:onClick="changeActiveTabButton"
+            android:src="@drawable/button_change_tab" />
+
+        
+       <ImageButton
+            android:contentDescription="@string/content_description_img_button_download"
+            android:id="@+id/button_download_file"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingTop="5dp"
+            android:background="@null"
+            android:onClick="startDownloadButton"
+            android:src="@drawable/button_download" />
+    </TableRow>
+
+</TableLayout>

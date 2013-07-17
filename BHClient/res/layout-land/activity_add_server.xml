@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1.0" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15" >
+
+        <LinearLayout
+            android:id="@+id/linear_layout_server_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_server_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/text_field_server_name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/editText_server_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/darker_gray"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/hint_server_name"
+                android:inputType="text"
+                android:textColor="@android:color/white" />
+
+            <CheckBox
+                android:id="@+id/checkbox_store_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_box_password"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_create_server"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.85"
+        android:onClick="createServerButton"
+        android:text="@string/button_create_server" />
+
+</LinearLayout>

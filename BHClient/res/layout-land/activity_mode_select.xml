@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:baselineAligned="false"
+    android:weightSum="1.0" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" >
+
+        <ImageButton
+            android:id="@+id/button_file_manager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/content_description_file_manager"
+            android:onClick="startFileManagerButton"
+            android:src="@drawable/button_file_manager_small" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:clickable="false"
+            android:text="@string/button_file_manager"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" >
+
+        <ImageButton
+            android:id="@+id/button_remote_desktop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/content_description_file_manager"
+            android:onClick="startRemoteDesktopButton"
+            android:src="@drawable/button_remote_desktop_small" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:clickable="false"
+            android:text="@string/button_remote_desktop"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+</LinearLayout>
